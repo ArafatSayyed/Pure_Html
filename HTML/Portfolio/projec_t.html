@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Project</title>
+</head>
+<body>
+    <center>
+        <h1>Simple Project</h1>
+        <p>
+            <b>Learn Programming and Technology</b>
+        </p>
+        <hr>
+        <a href="#home">Home</a> |
+        <a href="#topics">Topics</a> |
+        <a href="#videos">Coding Videos</a> |
+        <a href="#signup">Sign Up</a>
+    </center>
+    <hr>
+    <section id="home">
+        <h2>Welcome Students</h2>
+        <p>
+            Welcome to our student learning website.
+            This website provides useful programming and
+            technology topics for students.
+        </p>
+        <p>
+            You can learn programming languages, data structures,
+            web development, and other important computer science
+            concepts.
+        </p>
+    </section>
+    <hr>
+    <section id="topics">
+        <h2>Topics Covered</h2>
+        <table border="1" cellpadding="10">
+            <tr>
+                <th>S.No.</th>
+                <th>Topic</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>HTML</td>
+                <td>
+                    Learn the structure of web pages.
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>CSS</td>
+                <td>
+                    Learn how to style web pages.
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Java</td>
+                <td>
+                    Learn Java programming and OOP concepts.
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Python</td>
+                <td>
+                    Learn Python programming.
+                </td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Data Structures</td>
+                <td>
+                    Learn arrays, strings, linked lists,
+                    stacks and queues.
+                </td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Machine Learning</td>
+                <td>
+                    Learn the basics of machine learning.
+                </td>
+            </tr>
+        </table>
+    </section>
+    <hr>
+    <section id="videos">
+        <h2>Apna College Coding Videos</h2>
+        <p>
+            Learn programming from Apna College:
+        </p>
+        <a href="https://www.youtube.com/@ApnaCollegeOfficial"
+           target="_blank">
+            Visit Apna College YouTube Channel
+        </a>
+        <br>
+        <br>
+        <h3>Apna College YouTube</h3>
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/videoseries?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ"
+            title="Apna College Coding Videos"
+            allowfullscreen>
+        </iframe>
+    </section>
+    <hr>
+    <section id="signup">
+        <h2>Student Signup Form</h2>
+        <form>
+            <label for="name">
+                Full Name:
+            </label>
+            <br>
+            <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                required
+            >
+            <br>
+            <br>
+            <label for="email">
+                Email:
+            </label>
+            <br>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+            >
+            <br>
+            <br>
+            <label for="password">
+                Password:
+            </label>
+            <br>
+            <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Enter your password"
+                required
+            >
+            <br>
+            <br>
+            <label for="phone">
+                Phone Number:
+            </label>
+            <br>
+            <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="Enter your phone number"
+            >
+            <br>
+            <br>
+            <label>
+                Gender:
+            </label>
+            <br>
+            <input
+                type="radio"
+                id="male"
+                name="gender"
+                value="male"
+            >
+            <label for="male">
+                Male
+            </label>
+            <br>
+            <input
+                type="radio"
+                id="female"
+                name="gender"
+                value="female"
+            >
+            <label for="female">
+                Female
+            </label>
+            <br>
+            <br>
+            <label for="course">
+                Select Course:
+            </label>
+            <br>
+            <select id="course" name="course">
+                <option value="html">
+                    HTML
+                </option>
+                <option value="java">
+                    Java
+                </option>
+                <option value="python">
+                    Python
+                </option>
+                <option value="datascience">
+                    Data Science
+                </option>
+                <option value="ml">
+                    Machine Learning
+                </option>
+            </select>
+            <br>
+            <br>
+            <input
+                type="checkbox"
+                id="terms"
+                name="terms"
+                required
+            >
+            <label for="terms">
+                I agree to the terms and conditions.
+            </label>
+            <br>
+            <br>
+            <input
+                type="submit"
+                value="Sign Up"
+            >
+            <input
+                type="reset"
+                value="Reset"
+            >
+        </form>
+    </section>
+</body>
+</html>
